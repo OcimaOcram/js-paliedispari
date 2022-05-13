@@ -5,7 +5,7 @@ let somma;
 function generareNum () {
     let numeroComputerR = Math.floor(Math.random() * 5) + 1; 
     console.log (numeroComputerR);
-    return numeroComputer;
+    return numeroComputerR;
 }
 function chiVince () {
     if (somma % 2 == 0 && sceltaGiocatore == "pari") {
